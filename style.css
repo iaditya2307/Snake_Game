@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+
+canvas {
+    background-color: black;
+    border: 12px solid yellow;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background-color: #333; /* Set your desired background color */
+}
+
+.game-container {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+canvas {
+    background-color: black;
+    border: 12px solid yellow;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    canvas {
+        width: 100%;
+        border-width: 6px;
+    }
+}
+
+/* Media query for screens between 601px and 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    canvas {
+        width: 80%;
+        border-width: 8px;
+    }
+}
+
+/* Media query for screens larger than 901px */
+@media only screen and (min-width: 901px) {
+    canvas {
+        width: 1000px;
+        border-width: 12px;
+    }
+}
